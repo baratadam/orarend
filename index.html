@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Órarend App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Órarend</h1>
+
+  <!-- Új óra hozzáadás formája -->
+  <div class="add-form">
+    <h2>Új óra hozzáadása</h2>
+    
+    <!-- Legördülő menü a nap kiválasztásához -->
+    <select id="nap">
+      <option value="hetfo">Hétfő</option>
+      <option value="kedd">Kedd</option>
+      <option value="szerda">Szerda</option>
+      <option value="csut">Csütörtök</option>
+      <option value="pent">Péntek</option>
+    </select>
+
+    <!-- Legördülő menü az időpont kiválasztásához -->
+    <select id="idopont">
+      <option value="1">Óra 1</option>
+      <option value="2">Óra 2</option>
+      <option value="3">Óra 3</option>
+      <option value="4">Óra 4</option>
+      <option value="5">Óra 5</option>
+      <option value="6">Óra 6</option>
+      <option value="7">Óra 7</option>
+    </select>
+
+    <input id="tantargy" placeholder="Tantárgy">
+    <button onclick="hozzaad()">Hozzáad</button>
+  </div>
+
+  <!-- Órarend táblázat -->
+  <table id="orarend">
+    <thead>
+      <tr>
+        <th>Időpont</th>
+        <th>Hétfő</th>
+        <th>Kedd</th>
+        <th>Szerda</th>
+        <th>Csütörtök</th>
+        <th>Péntek</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

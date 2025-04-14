@@ -1,0 +1,117 @@
+/* Általános stílusok */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Címsor */
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Formázott táblázat */
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #6c63ff;
+    color: white;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  td button {
+    padding: 8px 12px;
+    background-color: #ff4c4c;
+    margin: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  td button:hover {
+    background-color: #e64141;
+  }
+  
+  /* Formázott hozzáadás */
+  .add-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .add-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #6c63ff;
+  }
+  
+  .add-form input, .add-form select {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .add-form select {
+    cursor: pointer;
+  }
+  
+  .add-form input:focus, .add-form select:focus {
+    outline: none;
+    border-color: #6c63ff;
+  }
+  
+  .add-form button {
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #6c63ff;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .add-form button:hover {
+    background-color: #5a54e5;
+  }
+  
+  .add-form button:active {
+    background-color: #4c47d0;
+  }
+      
